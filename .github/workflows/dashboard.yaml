@@ -6,9 +6,9 @@ on:
     paths:
       - 'dashboard-config.yml'
       - 'Makefile'
-  schedule:
-    # This will run at 05:48 on first day of the month in every month from January through December.
-    - cron: "48 5 1 1-12 *"
+#   schedule:
+#     # This will run at 05:48 on first day of the month in every month from January through December.
+#     - cron: "48 5 1 1-12 *"
 jobs:
   dashboard:
     runs-on: ubuntu-latest
